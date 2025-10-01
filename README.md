@@ -135,7 +135,7 @@ Warp2Api 支持以下 AI 模型：
 
 #### Anthropic Claude 系列
 - `claude-4-sonnet` - Claude 4 Sonnet 模型
-- `claude-4.5-sonnet` - Claude 4.5 Sonnet 模型
+- `claude-4-5-sonnet` - Claude 4.5 Sonnet 模型
 - `claude-4-opus` - Claude 4 Opus 模型
 - `claude-4.1-opus` - Claude 4.1 Opus 模型
 
