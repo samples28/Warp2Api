@@ -211,6 +211,7 @@ show_status() {
     echo
     echo "🔧 支持的模型:http://127.0.0.1:28889/v1/models"
     echo "   • claude-4-sonnet"
+    echo "   • claude-4-5-sonnet"
     echo "   • claude-4-opus"
     echo "   • claude-4.1-opus"
     echo "   • gemini-2.5-pro"
