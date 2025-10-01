@@ -15,7 +15,7 @@ def get_model_config(model_name: str) -> dict:
     """
     # Known models that map directly
     known_models = {
-        "claude-4-sonnet", "claude-4-opus", "claude-4.1-opus",
+        "claude-4-sonnet", "claude-4.5-sonnet", "claude-4-opus", "claude-4.1-opus",
         "gpt-5", "gpt-4o", "gpt-4.1", "o3", "o4-mini",
         "gemini-2.5-pro", "warp-basic"
     }
@@ -65,6 +65,14 @@ def get_warp_models():
                 {
                     "id": "claude-4-sonnet",
                     "display_name": "claude 4 sonnet",
+                    "description": None,
+                    "vision_supported": True,
+                    "usage_multiplier": 1,
+                    "category": "agent"
+                },
+                {
+                    "id": "claude-4.5-sonnet",
+                    "display_name": "claude 4.5 sonnet",
                     "description": None,
                     "vision_supported": True,
                     "usage_multiplier": 1,
@@ -219,6 +227,14 @@ def get_warp_models():
                 {
                     "id": "claude-4-sonnet",
                     "display_name": "claude 4 sonnet",
+                    "description": None,
+                    "vision_supported": True,
+                    "usage_multiplier": 1,
+                    "category": "coding"
+                },
+                {
+                    "id": "claude-4.5-sonnet",
+                    "display_name": "claude 4.5 sonnet",
                     "description": None,
                     "vision_supported": True,
                     "usage_multiplier": 1,
